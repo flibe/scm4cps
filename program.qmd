@@ -1,0 +1,38 @@
+---
+title: "Program"
+subtitle: "Subject to minor variations before the course starts."
+---
+
+## Introduction [Intro]{.part .part-gen}
+
+- What a cyber-physical system is. Examples from the critical infrastructures: the power system as the reference example of the course.
+- Known past and recent cyber-physical attacks against power systems and other critical infrastructures.
+- Goal of the attacker and goal of the defender. Introduction to the protection of cyber-physical systems.
+- Risk management as the framework of cyber-physical security: the steps of the risk management process, a quantitative risk-based approach, overview of the main standards and regulations.
+
+## Part 1. Modelling of cyber-physical systems and attacks [Model]{.part .part-model}
+
+- Modelling of the plant under control: state space models of physical systems, with examples; the notion of state; simulation models; discretization; change of coordinates.
+- The networked cyber-physical system as a whole: plant, controller, detector, communication networks and attacker.
+- Modelling of an attack: the attack space (model knowledge, disclosure resources, disruption resources). First models of eavesdropping, bias injection, denial of service and replay attacks.
+- Solution of the linear state space model, natural modes, stability of equilibria in continuous and discrete time, linearized models. These topics are introduced when needed, not as a preliminary block.
+- Monitors for detection and identification, their consistency property, fundamental limitations of detection. Undetectable and unidentifiable attacks: definitions and characterizing theorems.
+
+## Part 2. Attack schemes [Attacks]{.part .part-att}
+
+- False data injection attacks against state estimation in power systems: linearized power flow, weighted least squares state estimation, bad data detection, the undetectability condition and the impact on the estimated state.
+- Security indices and vulnerability indicators; the minimum sparsity attack; attacks in a protected scenario and the optimal protection problem; computation of the indices as mixed-integer linear programs.
+- Generalizations: topology attacks, load redistribution attacks, complex coordinated multi-level attacks.
+- Switching attacks and load altering attacks: model of the grid under attack, minimum destabilizing attack gain, vulnerability analysis, optimal protection.
+- Zero dynamics attacks: reference scenario, attack goals and model, impact on state and output, matched and unmatched initial conditions.
+- Covert attacks and their feedback structure; replay and denial of service attacks revisited with the full model.
+
+## Part 3. Detection and defence [Defence]{.part .part-def}
+
+- Detectability of attacks in presence of side information on the initial state.
+- Detectors and observers; watermarking of the control inputs.
+- Secure control allocation. Encrypted control. Resilient control and secure state estimation.
+
+## Experiments
+
+Throughout the course, many of the theoretical concepts are implemented through simulations in Julia and Matlab: design and simulation of the attacks, of the detectors and of the defence schemes. The [software setup](setup.qmd) page explains what to install.

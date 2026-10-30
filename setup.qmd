@@ -1,0 +1,58 @@
+---
+title: "Software setup"
+subtitle: "Complete these steps before the first simulation lesson, around lesson 12. All required software is free for Sapienza students."
+---
+
+## Julia (attack design, security indices, detectors)
+
+1. Install Julia using the official installer `juliaup`, following the instructions at [julialang.org/downloads](https://julialang.org/downloads/).
+2. Open the Julia REPL and install the packages used in the course:
+
+```julia
+using Pkg
+Pkg.add(["JuMP", "HiGHS", "Plots", "ControlSystems"])
+```
+
+3. Check that everything works by solving a tiny optimization problem:
+
+```julia
+using JuMP, HiGHS
+model = Model(HiGHS.Optimizer)
+@variable(model, 0 <= x <= 4)
+@variable(model, y >= 0, Int)
+@constraint(model, x + y <= 5)
+@objective(model, Max, 2x + 3y)
+optimize!(model)
+println(value(x), " ", value(y))   # expected: 0.0 5.0
+```
+
+[JuMP](https://jump.dev) is the modelling language we use to write optimization problems, such as the minimum sparsity attack and the optimal protection problem, the way we write them on the blackboard; [HiGHS](https://highs.dev) is an open-source solver for linear, quadratic and mixed-integer problems, and it is enough for the whole course. [ControlSystems.jl](https://juliacontrol.github.io/ControlSystems.jl/stable/) provides state space models, their simulation and the tools we need for the dynamical attacks. Students who want to try Gurobi can follow the optional instructions below.
+
+## Matlab (power system simulations)
+
+The simulations of the false data injection attacks against state estimation run on Matlab. Sapienza has a campus licence: install Matlab for free from the [Sapienza Matlab portal](https://it.mathworks.com/academia/tah-portal/sapienza-universita-di-roma-40576534.html), signing in with your institutional account. The code of the course uses only the base product.
+
+## Optional: Gurobi with a free academic licence
+
+[Gurobi](https://www.gurobi.com) is a commercial solver, often faster than HiGHS on large mixed-integer problems. It is free for students.
+
+1. Register on [gurobi.com](https://www.gurobi.com) with your Sapienza email and request a free **Named-User Academic** licence from the [academic program page](https://www.gurobi.com/academia/academic-program-and-licenses/). You will get a licence key of the form `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`.
+2. Activate the key while connected to the **university network** (for example the campus Wi-Fi): Gurobi checks that the request comes from an academic domain. In Julia, run:
+
+```julia
+import Pkg
+Pkg.add(["Gurobi", "Gurobi_jll"])
+import Gurobi_jll
+key = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"   # replace with your key
+run(`$(Gurobi_jll.grbgetkey()) $key`)
+```
+
+When asked where to save `gurobi.lic`, accept the default location (your home directory). `Pkg.add("Gurobi")` also downloads the Gurobi binaries, so you do not need to install Gurobi separately.
+
+3. Test it by solving the same problem as above with `Model(Gurobi.Optimizer)` in place of `Model(HiGHS.Optimizer)`. In the course code you can switch solver by changing that single line.
+
+**If Julia does not find the licence**, set the environment variable `GRB_LICENSE_FILE` to the full path of the file itself (for example `C:\Users\name\gurobi.lic`), not to its folder, and restart Julia. More details in the [Gurobi.jl documentation](https://jump.dev/JuMP.jl/stable/packages/Gurobi/).
+
+## Editor
+
+Any editor works. [Visual Studio Code](https://code.visualstudio.com) with the Julia extension is a good choice.

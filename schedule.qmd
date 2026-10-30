@@ -1,0 +1,43 @@
+---
+title: "Schedule"
+subtitle: "About 24 lessons, two per week, from late February to the end of May 2027. The dates will be added as soon as the Faculty publishes the timetable. What follows is a plan, and topics keep moving between lessons as the course goes on: what a lesson actually covered is always written in the [lesson diary](lessons.qmd)."
+toc: false
+---
+
+```{=html}
+<div class="course-strip" role="img" aria-label="Course parts: introduction lessons 1-3, modelling lessons 4-11, attacks lessons 12-21, defence lessons 22-24">
+  <div class="s-gen">Intro</div><div class="s-model">Modelling</div><div class="s-att">Attacks</div><div class="s-def">Defence</div>
+</div>
+<div class="strip-dates">
+  <span style="left:0">Lesson 1</span><span style="left:12.5%">Lesson 4</span><span style="left:45.8%">Lesson 12</span><span style="left:87.5%">Lesson 22</span>
+</div>
+```
+
+| # | Part | Topic |
+|--:|---|---|
+| 1 | [Intro]{.part .part-gen} | Course overview, logistics, study materials and exam; the questions the course answers |
+| 2 | [Intro]{.part .part-gen} | Cyber-physical systems; the power system as the reference example |
+| 3 | [Intro]{.part .part-gen} | Known cyber-physical attacks; risk management: process, quantitative approach, standards and regulations |
+| 4 | [Model]{.part .part-model} | Modelling of the plant: state space models, with a mechanical example |
+| 5 | [Model]{.part .part-model} | More examples; the notion of state, simulation models, discretization, change of coordinates |
+| 6 | [Model]{.part .part-model} | The networked cyber-physical system: plant, controller, detector, networks, attacker; the attack space |
+| 7 | [Model]{.part .part-model} | First attack models: eavesdropping, bias injection, denial of service, replay |
+| 8 | [Model]{.part .part-model} | Solution of the linear state space model, part 1 |
+| 9 | [Model]{.part .part-model} | Solution of the linear state space model, part 2: natural modes |
+| 10 | [Model]{.part .part-model} | Stability of equilibria, continuous and discrete time; linearized models |
+| 11 | [Model]{.part .part-model} | Monitors and their consistency; fundamental limitations of detection; undetectable and unidentifiable attacks |
+| 12 | [Attacks]{.part .part-att} | False data injection against state estimation: linearized power flow, weighted least squares |
+| 13 | [Attacks]{.part .part-att} | Solution of the estimation problem, bad data detection, attack formulation, undetectability and impact |
+| 14 | [Attacks]{.part .part-att} | Security indices, attacks in a protected scenario, optimal protection |
+| 15 | [Attacks]{.part .part-att} | Exercise and simulations (Matlab); the security index as a mixed-integer program (Julia) |
+| 16 | [Attacks]{.part .part-att} | Generalizations: topology attacks, load redistribution attacks, multi-level attacks |
+| 17 | [Attacks]{.part .part-att} | Switching attacks; introduction to load altering attacks |
+| 18 | [Attacks]{.part .part-att} | Load altering attacks: model of the grid under attack, minimum destabilizing gain |
+| 19 | [Attacks]{.part .part-att} | Load altering attacks: vulnerability analysis and optimal protection |
+| 20 | [Attacks]{.part .part-att} | Zero dynamics attacks: scenario, goals, model, impact on state and output |
+| 21 | [Attacks]{.part .part-att} | Zero dynamics attacks, conclusion; covert attacks |
+| 22 | [Defence]{.part .part-def} | Detection with side initial state information; detectors and observers; watermarking |
+| 23 | [Defence]{.part .part-def} | Secure control allocation; encrypted control |
+| 24 | [Defence]{.part .part-def} [Wrap-up]{.part .part-gen} | Resilient control; course recap, exam and projects |
+
+: {.schedule tbl-colwidths="[5,20,75]"}

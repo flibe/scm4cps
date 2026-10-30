@@ -1,0 +1,35 @@
+---
+title: "Lesson diary"
+subtitle: "For every lesson: a summary, the blackboard notes, the slides, the recording and exactly what to study. Reference codes such as [[Pasqualetti_2013]](references.qmd#ref-Pasqualetti_2013) are listed in [References](references.qmd)."
+toc-title: "Lessons"
+---
+
+<!--
+HOW TO ADD A LESSON: copy the block below, paste it at the bottom of the file (this page is
+oldest-first) and fill it in.
+
+## Lesson N (dd/mm/2027): Title {#lesson-N}
+
+[Model]{.part .part-model}   <- or [Intro]{.part .part-gen} / [Attacks]{.part .part-att} / [Defence]{.part .part-def}
+
+Summary of the lesson.
+
+- [Blackboard notes](LINK)
+- [Slides](LINK)
+- [Recording of the lesson](LINK)
+- Study ...
+-->
+
+::: {.news}
+**The course has not started yet.** The diary will be filled lesson by lesson from February 2027. Each lesson is recorded and the recording is linked here, for the students who cannot always attend in presence.
+
+Until then, the slides, blackboard notes, lecture notes and recordings of the [previous edition](https://sites.google.com/diag.uniroma1.it/liberati/home/teaching/2026-systems-and-control-methods-for-cyber-physical-security) cover most of the same topics, in the same order.
+:::
+
+## Before the course starts
+
+Three readings that need no prerequisite and show what the course is about:
+
+- [The real story of Stuxnet](https://spectrum.ieee.org/the-real-story-of-stuxnet) (IEEE Spectrum, 2013): how the malware that damaged the centrifuges of an enrichment plant was tracked down, and why the operators saw nothing on their screens.
+- [How 30 lines of code blew up a 27-ton generator](https://www.wired.com/story/how-30-lines-of-code-blew-up-27-ton-generator/) (Wired, 2020): the 2007 Aurora experiment, where a protection relay was opened and closed out of phase until the generator destroyed itself.
+- [ENTSO-E investigation of the blackout of 28 April 2025 in the Iberian peninsula](https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/), with the factual report of October 2025 and the final report of March 2026: not an attack, but the clearest recent account of how a disturbance propagates through a power system, which is the physical side of every attack we study.

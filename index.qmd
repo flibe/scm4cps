@@ -1,0 +1,44 @@
+---
+title: "Systems and Control Methods for Cyber-Physical Security"
+subtitle: "Sapienza University of Rome · DIAG · Academic year 2026/2027, second semester · Prof. Francesco Liberati"
+toc: false
+---
+
+::: {.hero-photo}
+![The control room of a power grid operator: the screens show the network, its state estimate and the alarms. Everything the course studies, attacks and defences alike, passes through the data on those screens.](img/control-room.jpg){.hero-img}
+:::
+
+::: {.news}
+**News**
+
+- The course starts in the second semester, in February 2027. The timetable and the classroom will be published here as soon as the Faculty releases them.
+- A Google Class will be opened before the first lesson for communications and study materials; the link will be published here. Join it only with your Sapienza email (@studenti.uniroma1.it).
+- Until then, the slides, blackboard notes and recordings of the [previous edition](https://sites.google.com/diag.uniroma1.it/liberati/home/teaching/2026-systems-and-control-methods-for-cyber-physical-security) are available.
+:::
+
+## About the course
+
+How can a well-crafted cyberattack disrupt a physical system, a power grid for instance, while remaining undetected by its operator for long enough to do damage? The course answers with the tools of system theory, in four steps:
+
+- **Introduction:** what a cyber-physical system is, the power system as the reference example, the attacks that have actually happened, and risk management as the framework that organizes every activity of cyber-physical security.
+- **Modelling:** the networked cyber-physical system (plant, controller, detector, communication network, attacker), the attack space of the adversary, and the conditions under which an attack cannot be detected or identified.
+- **Attacks:** the most important attack schemes, from static to dynamical ones, modelled and analysed one by one: false data injection against state estimation, topology and load redistribution attacks, load altering and switching attacks, zero dynamics attacks, covert attacks, replay and denial of service.
+- **Defence:** detectors and observers, watermarking, secure control allocation, encrypted control, resilient control, and the optimal allocation of protection measures.
+
+At the end of the course the student is able to model an attack and its physical effect on the system, to tell in which cases the attack can remain undetected, and to design detectors and defence strategies. The same knowledge serves in practice for vulnerability assessment and for designing systems that are more resilient to attacks. Most of the concepts are demonstrated through simulations in Julia and Matlab. See the [program](program.qmd) and the [schedule](schedule.qmd).
+
+**Prerequisites:** fundamentals of mathematical analysis (derivatives, integrals, differential equations), linear algebra (linear systems, matrices, determinant, rank) and physics (elementary circuits and mechanical systems). The system theory needed, such as state space models, their solution and stability, is introduced during the course when it is needed, so that the course is accessible also to students coming from cybersecurity.
+
+## Logistics
+
+**Lessons.** The timetable of this edition is not yet published. In the previous edition the lessons were on Thursday, 17:00–19:00, and Friday, 12:00–15:00, in classroom T1, Building E, Viale Regina Elena 295.
+
+| Day | Time | Classroom |
+|---|---|---|
+| To be announced | | |
+
+**Office hours:** Thursdays, 10:00–12:00, room A213, DIAG (Via Ariosto 25), or online. Send me an email in advance to book an appointment; for an online meeting I will reply with the link. A different day or hour can be agreed.
+
+**Contact:** [liberati@diag.uniroma1.it](mailto:liberati@diag.uniroma1.it). Write me for any question.
+
+**Study materials:** for every lesson, the [lesson diary](lessons.qmd) lists the blackboard notes, the slides, the recording and the exact sections to study. The lecture notes written for the course, one chapter per topic, are the main text; the [references](references.qmd) page lists them together with the books and papers behind each part. All references are free and openly accessible whenever possible.

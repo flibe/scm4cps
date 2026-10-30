@@ -1,0 +1,23 @@
+---
+title: "Exams and grading"
+---
+
+## Exam modalities
+
+The student has two alternative options. **In both cases the exam must be booked on Infostud.**
+
+**1. Written exam, plus an optional oral exam.** The written test lasts two to three hours and includes one or two exercises and one or two open questions. **Closed book:** students can use only paper, pen and a calculator; no notes, books, slides or electronic devices. After the correction of the written test, the student can ask for an oral exam to try to improve the grade; its date is fixed a few days after the written test.
+
+**2. Project, plus a mandatory oral exam.** Towards the end of the course, interested students (alone or in groups of two) can ask for a project, typically the study of one or two papers in the cyber-physical security field and the replication of their simulations. Students can also propose a topic of their interest, which I evaluate for suitability. The completed project must be sent to me at least two days before the discussion, and the discussion must take place between the date of the written exam and at most ten days after it, because the exam has to be closed on Infostud within that time. The discussion date is agreed by email once the project is finished.
+
+## Exam dates
+
+The dates of the 2027 sessions will be published here and on the official calendar as soon as they are fixed.
+
+| Date | Time | Classroom |
+|---|---|---|
+| To be announced | | |
+
+## Past exams
+
+Texts of past exams are available [in this folder](https://drive.google.com/drive/folders/1FeFcG8tpEkP8AoXlIWOc6C0cxK_KPAtS?usp=sharing).

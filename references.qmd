@@ -1,0 +1,89 @@
+---
+title: "References and study materials"
+subtitle: "For each lesson, the lesson diary indicates exactly what to study. The lecture notes written for the course are the main text; the books and papers below are free and openly accessible whenever possible, and the advanced ones are used only for specific sections."
+---
+
+The few items that are not open access are still available to you: Sapienza subscribes to the main publishers, so you can read them from the University network, or from anywhere by signing in with your institutional account, either on the publisher's site (IEEE Xplore, ScienceDirect, SpringerLink, ACM Digital Library) or through the [University proxy](https://login.ezproxy.uniroma1.it/login) of the [library system](https://www.uniroma1.it/it/pagina/sistema-bibliotecario-sapienza).
+
+## Lecture notes
+
+The lecture notes of the course, one chapter per topic, with the study references listed at the end of each chapter. The chapters below are those of the previous edition; they are updated during the course and the diary links the current version of each.
+
+- [**[Notes_Ch1]**]{#ref-Notes_Ch1} Chapter 1, [Introduction](https://uniroma1it-my.sharepoint.com/:b:/g/personal/francesco_liberati_uniroma1_it/IQCtFR4ku035QbHB3pPTElVwAemGYniQaRHTW3hMyWmIwT8?e=afDSGB).
+- [**[Notes_Ch3]**]{#ref-Notes_Ch3} Chapter 3, [Modelling of cyber-physical systems and attacks](https://uniroma1it-my.sharepoint.com/:b:/g/personal/francesco_liberati_uniroma1_it/IQCAvBSSvpg3SoG-7dX6AJa4AfVY6OgUT33jgOFRFUOwn7g?e=Cnzhji).
+- [**[Notes_Ch4]**]{#ref-Notes_Ch4} Chapter 4, [False data injection attacks on state estimation in power systems](https://uniroma1it-my.sharepoint.com/:b:/g/personal/francesco_liberati_uniroma1_it/IQAdaSC88P2yRqddrRZ1UPNOAY8XnU4ZKIAhS9yD69LaKmc?e=EcYuV6).
+- [**[Notes_Ch5]**]{#ref-Notes_Ch5} Chapter 5, [Load altering attacks and switching attacks](https://1drv.ms/b/c/ce79e38906a84891/IQDQ5lgnIZ2pSanmDWjnjBulAfk9R2KLhGbIOAaFnNB2Stc?e=b5LRDi).
+- [**[Notes_Ch6]**]{#ref-Notes_Ch6} Chapter 6, [Complex coordinated multi-level attacks based on false data injection](https://1drv.ms/b/c/ce79e38906a84891/IQBAEoxL8h6aTaxVMc6njbxoATs9ZdWuSoRL02IRA1xaY1k?e=Q4VMtE).
+- [**[Notes_Ch7]**]{#ref-Notes_Ch7} Chapter 7, [Covert attacks](https://1drv.ms/b/c/ce79e38906a84891/IQDjTz48uDGQRbivAmtIRteOAWqd5E4Agk7gM57gziYORuk?e=aNzxID).
+- [**[Notes_Ch8]**]{#ref-Notes_Ch8} Chapter 8, [Zero dynamics attacks](https://1drv.ms/b/c/ce79e38906a84891/IQDCO29KmvKtTqYUc7NleEMhAXZpHPWmab6dD6XpYQ1_rc0?e=cpLnUv).
+- [**[Notes_AppA]**]{#ref-Notes_AppA} Appendix A, [Introduction to feedback control and the state](https://uniroma1it-my.sharepoint.com/:b:/g/personal/francesco_liberati_uniroma1_it/IQD01N4aMbdES5lv_B-av6sgAX_zx7tjdMAzTW98jeyzhls?e=RC1E4V): the system theory used in the course, in the order in which the course needs it.
+
+## Books
+
+- [**[Taha_2021]**]{#ref-Taha_2021} W. M. Taha, A.-E. M. Taha, J. Thunberg. *Cyber-Physical Systems: A Model-Based Approach*. Springer, 2021. [Open access](https://link.springer.com/book/10.1007/978-3-030-36071-9). A basic to intermediate level book, for the modelling part.
+- [**[Ferrari_2021]**]{#ref-Ferrari_2021} R. M. G. Ferrari, A. M. H. Teixeira (eds.). *Safety, Security and Privacy for Cyber-Physical Systems*. Springer, 2021. [SpringerLink](https://link.springer.com/book/10.1007/978-3-030-65048-3). An advanced textbook, used for specific chapters.
+- [**[Abur_2004]**]{#ref-Abur_2004} A. Abur, A. Gómez-Expósito. *Power System State Estimation: Theory and Implementation*. Marcel Dekker, 2004. The reference for weighted least squares state estimation and bad data detection, chapters 2 and 5.
+- [**[Astrom_2021]**]{#ref-Astrom_2021} K. J. Åström, R. M. Murray. *Feedback Systems: An Introduction for Scientists and Engineers*, 2nd ed. Princeton University Press, 2021. [Princeton University Press](https://press.princeton.edu/books/hardcover/9780691193984/feedback-systems); the authors keep an electronic version freely available at [fbsbook.org](https://fbsbook.org). For the system theory recalled in the course: state space models (chapter 3), their solution and stability (chapters 5 and 6).
+
+## Surveys and tutorials [Intro]{.part .part-gen}
+
+- [**[Cardenas_2008]**]{#ref-Cardenas_2008} A. A. Cárdenas, S. Amin, S. Sastry. "Research challenges for the security of control systems." *3rd USENIX Workshop on Hot Topics in Security (HotSec)*, 2008. [USENIX](https://www.usenix.org/conference/hotsec-08/research-challenges-security-control-systems). The paper that framed the field: why control systems need a security of their own.
+- [**[Dibaji_2019]**]{#ref-Dibaji_2019} S. M. Dibaji, M. Pirani, D. B. Flamholz, A. M. Annaswamy, K. H. Johansson, A. Chakrabortty. "A systems and control perspective of CPS security." *Annual Reviews in Control* 47, 394–411, 2019. [DOI](https://doi.org/10.1016/j.arcontrol.2019.04.011).
+- [**[Chong_2019]**]{#ref-Chong_2019} M. S. Chong, H. Sandberg, A. M. H. Teixeira. "A tutorial introduction to security and privacy for cyber-physical systems." *European Control Conference*, 968–978, 2019. [DOI](https://doi.org/10.23919/ECC.2019.8795652).
+- [**[Liberati_2021]**]{#ref-Liberati_2021} F. Liberati, E. Garone, A. Di Giorgio. "Review of cyber-physical attacks in smart grids: a system-theoretic perspective." *Electronics* 10(10), 1153, 2021. [Open access](https://doi.org/10.3390/electronics10101153). The attacks of the course, classified with the same system-theoretic approach.
+- [**[Langner_2011]**]{#ref-Langner_2011} R. Langner. "Stuxnet: dissecting a cyberwarfare weapon." *IEEE Security & Privacy* 9(3), 49–51, 2011. [DOI](https://doi.org/10.1109/MSP.2011.67).
+- [**[Lee_2016]**]{#ref-Lee_2016} R. M. Lee, M. J. Assante, T. Conway. *Analysis of the cyber attack on the Ukrainian power grid*. SANS ICS and E-ISAC, 2016. [Report](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2016/05/20081514/E-ISAC_SANS_Ukraine_DUC_5.pdf). The 2015 attack that switched off substations in western Ukraine.
+
+## Risk management: standards and regulations [Intro]{.part .part-gen}
+
+- [**[NIST_800-30]**]{#ref-NIST_800-30} NIST Special Publication 800-30 Rev. 1, *Guide for Conducting Risk Assessments*, 2012. [Free PDF](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf). The risk assessment process followed in the course.
+- [**[NIST_800-82]**]{#ref-NIST_800-82} NIST Special Publication 800-82 Rev. 3, *Guide to Operational Technology (OT) Security*, 2023. [Free PDF](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf).
+- [**[ISO_31000]**]{#ref-ISO_31000} ISO 31000:2018, *Risk management — Guidelines*; ISO/IEC 27005:2022, *Information security, cybersecurity and privacy protection — Guidance on managing information security risks*.
+- [**[IEC_62443]**]{#ref-IEC_62443} IEC 62443 series, *Security for industrial automation and control systems*.
+- [**[NIS2]**]{#ref-NIS2} Directive (EU) 2022/2555 (NIS2) on measures for a high common level of cybersecurity across the Union. [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2022/2555/oj). See also the [ENISA](https://www.enisa.europa.eu/) website.
+
+## Modelling and fundamental limitations of detection [Model]{.part .part-model}
+
+- [**[Teixeira_2015]**]{#ref-Teixeira_2015} A. Teixeira, I. Shames, H. Sandberg, K. H. Johansson. "A secure control framework for resource-limited adversaries." *Automatica* 51, 135–148, 2015. [DOI](https://doi.org/10.1016/j.automatica.2014.10.067), [arXiv:1212.0226](https://arxiv.org/abs/1212.0226). The attack space (model knowledge, disclosure resources, disruption resources) and the models of denial of service, replay, zero dynamics and bias injection attacks within one framework.
+- [**[Pasqualetti_2013]**]{#ref-Pasqualetti_2013} F. Pasqualetti, F. Dörfler, F. Bullo. "Attack detection and identification in cyber-physical systems." *IEEE Transactions on Automatic Control* 58(11), 2715–2729, 2013. [DOI](https://doi.org/10.1109/TAC.2013.2266831), [authors' PDF](https://fabiopas.it/papers/FP-FD-FB-11a.pdf). Monitors, their consistency, undetectable and unidentifiable attacks: the two theorems of the course.
+
+## False data injection attacks against state estimation [Attacks]{.part .part-att}
+
+- [**[Liu_2011]**]{#ref-Liu_2011} Y. Liu, P. Ning, M. K. Reiter. "False data injection attacks against state estimation in electric power grids." *ACM Transactions on Information and System Security* 14(1), article 13, pp. 1–33, 2011. [DOI](https://doi.org/10.1145/1952982.1952995). The first paper on the attack, originally presented at ACM CCS 2009.
+- [**[Sandberg_2010]**]{#ref-Sandberg_2010} H. Sandberg, A. Teixeira, K. H. Johansson. "On security indices for state estimators in power networks." *First Workshop on Secure Control Systems (SCS), CPSWEEK*, Stockholm, 2010. [Authors' PDF](https://people.kth.se/~hsan/publications_files/SCS2010.pdf). The security index $\alpha_i$ and the minimum sparsity attack.
+- [**[Kim_2011]**]{#ref-Kim_2011} T. T. Kim, H. V. Poor. "Strategic protection against data injection attacks on power grids." *IEEE Transactions on Smart Grid* 2(2), 326–333, 2011. [DOI](https://doi.org/10.1109/TSG.2011.2119336). Attacks in a protected scenario and the optimal protection problem.
+- [**[Kim_2013]**]{#ref-Kim_2013} J. Kim, L. Tong. "On topology attack of a smart grid: undetectable attacks and countermeasures." *IEEE Journal on Selected Areas in Communications* 31(7), 1294–1305, 2013. [DOI](https://doi.org/10.1109/JSAC.2013.130712).
+- [**[Yuan_2011]**]{#ref-Yuan_2011} Y. Yuan, Z. Li, K. Ren. "Modeling load redistribution attacks in power systems." *IEEE Transactions on Smart Grid* 2(2), 382–390, 2011. [DOI](https://doi.org/10.1109/TSG.2011.2123925).
+
+## Load altering and switching attacks [Attacks]{.part .part-att}
+
+- [**[Mohsenian-Rad_2011]**]{#ref-Mohsenian-Rad_2011} A.-H. Mohsenian-Rad, A. Leon-Garcia. "Distributed internet-based load altering attacks against smart power grids." *IEEE Transactions on Smart Grid* 2(4), 667–674, 2011. [DOI](https://doi.org/10.1109/TSG.2011.2160297). The static load altering attack.
+- [**[Amini_2018]**]{#ref-Amini_2018} S. Amini, F. Pasqualetti, H. Mohsenian-Rad. "Dynamic load altering attacks against power system stability: attack models and protection schemes." *IEEE Transactions on Smart Grid* 9(4), 2862–2872, 2018. [DOI](https://doi.org/10.1109/TSG.2016.2622686). The model of the grid under attack, the minimum destabilizing gain and the protection problem of the course.
+- [**[Liu_2013]**]{#ref-Liu_2013} S. Liu, S. Mashayekh, D. Kundur, T. Zourntos, K. Butler-Purry. "A framework for modeling cyber-physical switching attacks in smart grid." *IEEE Transactions on Emerging Topics in Computing* 1(2), 273–285, 2013. [DOI](https://doi.org/10.1109/TETC.2013.2296440).
+
+## Zero dynamics, covert and replay attacks [Attacks]{.part .part-att}
+
+- [**[Teixeira_2012]**]{#ref-Teixeira_2012} A. Teixeira, I. Shames, H. Sandberg, K. H. Johansson. "Revealing stealthy attacks in control systems." *50th Annual Allerton Conference on Communication, Control, and Computing*, 1806–1813, 2012. [DOI](https://doi.org/10.1109/Allerton.2012.6483441). Zero dynamics attacks, and how a change of the system reveals them.
+- [**[Smith_2015]**]{#ref-Smith_2015} R. S. Smith. "Covert misappropriation of networked control systems: presenting a feedback structure." *IEEE Control Systems Magazine* 35(1), 82–92, 2015. [DOI](https://doi.org/10.1109/MCS.2014.2364723). The covert attack.
+- [**[Mo_2009]**]{#ref-Mo_2009} Y. Mo, B. Sinopoli. "Secure control against replay attacks." *47th Annual Allerton Conference on Communication, Control, and Computing*, 911–918, 2009. [DOI](https://doi.org/10.1109/Allerton.2009.5394956). The replay attack and the first watermarking defence.
+
+## Detection and defence [Defence]{.part .part-def}
+
+- [**[Mo_2015]**]{#ref-Mo_2015} Y. Mo, S. Weerakkody, B. Sinopoli. "Physical authentication of control systems: designing watermarked control inputs to detect counterfeit sensor outputs." *IEEE Control Systems Magazine* 35(1), 93–109, 2015. [DOI](https://doi.org/10.1109/MCS.2014.2364724).
+- [**[Fawzi_2014]**]{#ref-Fawzi_2014} H. Fawzi, P. Tabuada, S. Diggavi. "Secure estimation and control for cyber-physical systems under adversarial attacks." *IEEE Transactions on Automatic Control* 59(6), 1454–1467, 2014. [DOI](https://doi.org/10.1109/TAC.2014.2303233), [arXiv:1205.5073](https://arxiv.org/abs/1205.5073). Resilient control and secure state estimation.
+- [**[Johansen_2013]**]{#ref-Johansen_2013} T. A. Johansen, T. I. Fossen. "Control allocation — a survey." *Automatica* 49(5), 1087–1103, 2013. [DOI](https://doi.org/10.1016/j.automatica.2013.01.035). The background for secure control allocation.
+- [**[Kogiso_2015]**]{#ref-Kogiso_2015} K. Kogiso, T. Fujita. "Cyber-security enhancement of networked control systems using homomorphic encryption." *54th IEEE Conference on Decision and Control*, 6836–6843, 2015. [DOI](https://doi.org/10.1109/CDC.2015.7403296). The first encrypted controller.
+- [**[Darup_2021]**]{#ref-Darup_2021} M. Schulze Darup, A. B. Alexandru, D. E. Quevedo, G. J. Pappas. "Encrypted control for networked systems: an illustrative introduction and current challenges." *IEEE Control Systems Magazine* 41(3), 58–78, 2021. [DOI](https://doi.org/10.1109/MCS.2021.3062956), [arXiv:2010.00268](https://arxiv.org/abs/2010.00268).
+
+## Software and data
+
+- [Julia](https://julialang.org), [JuMP](https://jump.dev), [HiGHS](https://highs.dev) and [ControlSystems.jl](https://juliacontrol.github.io/ControlSystems.jl/stable/): see the [software setup](setup.qmd) page.
+- [Matlab](https://it.mathworks.com/academia/tah-portal/sapienza-universita-di-roma-40576534.html), free for Sapienza students with the campus licence.
+- [MATPOWER](https://matpower.org): the standard test grids (IEEE 14, 30, 118 buses) used in the simulations, with the Matlab functions that build the measurement model.
+
+## Some readings
+
+- [The real story of Stuxnet](https://spectrum.ieee.org/the-real-story-of-stuxnet), IEEE Spectrum, 2013.
+- [How 30 lines of code blew up a 27-ton generator](https://www.wired.com/story/how-30-lines-of-code-blew-up-27-ton-generator/), Wired, 2020.
+- [ENTSO-E investigation of the blackout of 28 April 2025 in the Iberian peninsula](https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/).
+- [ENISA](https://www.enisa.europa.eu/), the European Union Agency for Cybersecurity: threat landscape reports and guidance for the energy sector.

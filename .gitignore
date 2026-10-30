@@ -1,0 +1,12 @@
+/.quarto/
+/_site/
+**/*.quarto_ipynb
+
+# File operativi, solo locali
+/README.md
+/CLAUDE.md
+/.claude/
+
+# Sorgenti di lavoro (dispense LaTeX, screenshot, script): restano fuori dal repo
+_dispense/
+_shots/
