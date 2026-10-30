@@ -12,7 +12,7 @@ toc: false
 **News**
 
 - The course starts in the second semester, in February 2027. The timetable and the classroom will be published here as soon as the Faculty releases them.
-- A Google Class will be opened before the first lesson for communications and study materials; the link will be published here. Join it only with your Sapienza email (@studenti.uniroma1.it).
+- Please join the [Google Class of the course](https://classroom.google.com/c/ODgzMTg4ODQ3NzIx?cjc=azrrdtnr), used for communications and study materials, signing in only with your Sapienza student email (@studenti.uniroma1.it).
 - Until then, the slides, blackboard notes and recordings of the [previous edition](https://sites.google.com/diag.uniroma1.it/liberati/home/teaching/2026-systems-and-control-methods-for-cyber-physical-security) are available.
 :::
 
