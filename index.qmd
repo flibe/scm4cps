@@ -1,6 +1,6 @@
 ---
 title: "Systems and Control Methods for Cyber-Physical Security"
-subtitle: "Sapienza University of Rome · DIAG · Academic year 2026/2027, second semester · Prof. Francesco Liberati"
+subtitle: "Sapienza University of Rome · DIAG · Academic year 2026/2027, second semester · 6 CFU · Prof. Francesco Liberati"
 toc: false
 ---
 
