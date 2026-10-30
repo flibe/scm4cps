@@ -10,6 +10,7 @@ website:
   page-navigation: true
   search: true
   navbar:
+    title: "SCM4CPS 2027"
     left:
       - text: Home
         href: index.qmd
