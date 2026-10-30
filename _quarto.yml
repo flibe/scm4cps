@@ -26,7 +26,7 @@ website:
       - text: Software setup
         href: setup.qmd
   page-footer:
-    left: "© Francesco Liberati 2026"
+    left: "© Francesco Liberati 2026 · Website built with [Claude](https://claude.ai)"
     right: "Contact: [liberati@diag.uniroma1.it](mailto:liberati@diag.uniroma1.it)"
 
 format:
