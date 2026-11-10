@@ -28,8 +28,11 @@ Until then, the slides, blackboard notes, lecture notes and recordings of the [p
 
 ## Before the course starts
 
-Three readings that need no prerequisite and show what the course is about:
+Six readings that need no prerequisite and show what the course is about:
 
 - [The real story of Stuxnet](https://spectrum.ieee.org/the-real-story-of-stuxnet) (IEEE Spectrum, 2013): how the malware that damaged the centrifuges of an enrichment plant was tracked down, and why the operators saw nothing on their screens.
 - [How 30 lines of code blew up a 27-ton generator](https://www.wired.com/story/how-30-lines-of-code-blew-up-27-ton-generator/) (Wired, 2020): the 2007 Aurora experiment, where a protection relay was opened and closed out of phase until the generator destroyed itself.
 - [ENTSO-E investigation of the blackout of 28 April 2025 in the Iberian peninsula](https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/), with the factual report of October 2025 and the final report of March 2026: not an attack, but the clearest recent account of how a disturbance propagates through a power system, which is the physical side of every attack we study.
+- [Triton is the world's most murderous malware, and it's spreading](https://www.technologyreview.com/2019/03/05/103328/cybersecurity-critical-infrastructure-triton-malware/) (MIT Technology Review, 2019): in 2017, at a petrochemical plant in Saudi Arabia, the attackers took over the safety instrumented systems, the last line of defence that is meant to shut the plant down before an accident.
+- [Hackers remotely kill a Jeep on the highway, with me in it](https://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/) (Wired, 2015): two researchers reach the steering, the brakes and the transmission of a car through its entertainment system, from a laptop miles away, while a journalist drives it on the highway. Cyber-physical systems are not only power grids.
+- [BlackIoT: IoT botnet of high wattage devices can disrupt the power grid](https://www.usenix.org/conference/usenixsecurity18/presentation/soltan) (S. Soltan, P. Mittal, H. V. Poor, USENIX Security 2018, [free PDF](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-soltan.pdf)): a botnet of air conditioners and heaters can manipulate the power demand of the grid. A first look at the load altering attacks that we study in the course.
