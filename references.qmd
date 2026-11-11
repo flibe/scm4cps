@@ -86,4 +86,7 @@ The lecture notes of the course, one chapter per topic, with the study reference
 - [The real story of Stuxnet](https://spectrum.ieee.org/the-real-story-of-stuxnet), IEEE Spectrum, 2013.
 - [How 30 lines of code blew up a 27-ton generator](https://www.wired.com/story/how-30-lines-of-code-blew-up-27-ton-generator/), Wired, 2020.
 - [ENTSO-E investigation of the blackout of 28 April 2025 in the Iberian peninsula](https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/).
+- [Triton is the world's most murderous malware, and it's spreading](https://www.technologyreview.com/2019/03/05/103328/cybersecurity-critical-infrastructure-triton-malware/), MIT Technology Review, 2019.
+- [Hackers remotely kill a Jeep on the highway, with me in it](https://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/), Wired, 2015.
+- S. Soltan, P. Mittal, H. V. Poor. [BlackIoT: IoT botnet of high wattage devices can disrupt the power grid](https://www.usenix.org/conference/usenixsecurity18/presentation/soltan), USENIX Security 2018. [Free PDF](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-soltan.pdf).
 - [ENISA](https://www.enisa.europa.eu/), the European Union Agency for Cybersecurity: threat landscape reports and guidance for the energy sector.
